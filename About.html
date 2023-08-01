@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Multi_Mode Student's Hostel Booking & Accommodation System</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">
+                <img class="Logo-image" src="images/Hostels Logo.jpg"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                    <li><a href="">CUSTOMER CARE</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1> About Us</h1>     
+    </section>
+
+    <!------------About Section---------->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the best one-stop hostel booking platform</h1>
+            <p>With the rising cutting edge technology, We strive to bring 
+                everything to your door-step, and even further take it to your
+                fingerprints. Select and make the paymen to secure your slot.
+            </p>
+            <a href="">Explore Now</a>
+            </div>
+
+            <div class="about-col">
+                <img src="images/room3.jpg">
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <!---------Javascript for Toggle Menu Response With a Variable and a Function------------->
+    <script>
+    var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+        navLinks.style.right = "0";
+        }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    </script>
+
+
+    <!--------------Footer Section------------>
+<section class="footer">
+    <h3>About Us</h3>
+    <p>Multi_Mode Hostesl & Accommodation is a webapp that allows prospective students to
+         search and book rooms <br> from their comfort, by simply visiting the website, browsing through the available
+          rooms available in different<br> levels, and can also be viewed
+           remotely by the aid of Google maps.</p>
+           <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-whatsapp"></i>
+            <i class="fa fa-signal"></i>
+            <i class="fa fa-telegram"></i>
+           </div>
+
+</section>
+</body>
+</html>
